@@ -1,20 +1,19 @@
 # Übung 3 – JavaScript Teil 5: DOM, Event Listener und Local Storage
 
-Zum Abschluss der HYP1_T1-Übungen soll eine kleine Bildergalerie implementiert werden, die ihre Bilder mittels JavaScript-DOM austauscht. Eine einfache Local Storage-Implementierung ermöglicht die Speicherung von Notizen.
+Es soll eine kleine Bildergalerie implementiert werden, die ihre Bilder mittels JavaScript-DOM austauscht. Eine einfache Local Storage-Implementierung ermöglicht die Speicherung von Notizen.
 
 ## Simple Image Gallery
 
-In Ihrem Repository ist das Grundgerüst der Simple Image Gallery gegeben. Dieses enthält die HTML-Datei `index.html`, die dazugehörige SCSS-Datei `_scss/main.css`, die JavaScript-Datei `_js/gallery.js` sowie sechs Bilder mit dazugehörigen Thumbnails (Vorschaubildern) und einigen weiteren Assets. Beim Klick auf einen der sechs Thumbnails, die als Bootstrap Karten (Cards, eine Kombination aus Bild + Text) realisiert sind, wird das dazugehörige große Bild geöffnet/angezeigt.
+In Ihrem Repository ist das Grundgerüst der Simple Image Gallery gegeben. Dieses enthält die HTML-Datei `index.html`, die dazugehörige CSS-Datei `css/main.css`, die JavaScript-Datei `_js/gallery.js` sowie sechs Bilder mit dazugehörigen Thumbnails (Vorschaubildern) und einigen weiteren Assets. Beim Klick auf einen der sechs Thumbnails, die als Bootstrap Karten (Cards, eine Kombination aus Bild + Text) realisiert sind, wird das dazugehörige große Bild geöffnet/angezeigt.
 
 | <img src="stage1.png" alt="Das Template der Image Gallery ist fast vollständig, es fehlt aber die Formatierung des Notizfeldes, da die CSS-Datei noch nicht generiert wurde." width="800"> |
 |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 |                   **Das Template der Image Gallery ist fast vollständig, es fehlt aber die Formatierung des Notizfeldes, da die CSS-Datei noch nicht generiert wurde.**                    |
 
-Zunächst müssen Sie aber noch `css/main.css` und `js/gallery.js` generieren. Dazu sind die entsprechenden Gulp Tasks wie aus Übung 9 bekannt in `Gulpfile.js` hinterlegt. Installieren Sie zuerst alle notwendigen Dependencies mittels `npm install` und starten Sie dann mit `gulp` die Entwicklungsumgebung. Dies startet den Development Server mit Watcher Task und erzeugt die CSS- und JS-Datei.
 
-| <img src="stage2.png" alt="Nach dem Ausführen der Gulp-Tasks sind CSS- und JS-Datei eingebunden (der Stift im Notizfeld wird angezeigt) und die Entwicklung kann starten." width="800"> |
+| <img src="stage2.png" alt="" width="800"> |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-|                   **Nach dem Ausführen der Gulp-Tasks sind CSS- und JS-Datei eingebunden (der Stift im Notizfeld wird angezeigt) und die Entwicklung kann starten.**                    |
+|                   ****                    |
 
 Nun kann die Entwicklung starten. Vervollständigen Sie nun `_js/gallery.js`, sodass folgende Funktionalitäten für die Galerie gegeben sind:
 
@@ -53,7 +52,6 @@ Um dann in das Notizfeld eine zu einem Bild gespeicherte Notiz zu laden, impleme
 ## Tipps und Richtlinien
 
 - Für Tüftler\*innen: Es ist möglich, anstatt sechs separater Event Listener nur einen einzigen zu verwenden und dieselbe Funktionalität zu erzielen. Der Schlüssel hierzu nennt sich *Event Bubbling*.
-- Sollte der Gulp-Workflow nicht funktionieren, legen Sie ein Verzeichnis `js` an, kopieren Sie `_js/gallery.js` dorthin und arbeiten Sie in dieser Datei. Erzeugen Sie weiters eine Datei `main.css` in einem Ordner `css` und kopieren Sie den Inhalt von `_scss/main.scss` dort hinein.
 - Die Chrome DevTools und ähnliche Werkzeuge anderer Browser zeigen generierten JavaScript-Code an.
 - MDN als Referenz für [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference) und [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model) verwenden.
-- Bei Fragen oder Problemen zur Aufgabe verwenden Sie den Pull Request "Feedback" oder eröffnen Sie Issues. Alternativ können Sie Fragen auch in Microsoft Teams stellen.
+

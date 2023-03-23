@@ -1,4 +1,4 @@
-# Übung 3 – JavaScript Teil 5: DOM, Event Listener und Local Storage
+# Übung 3 – DOM, Event Listener und Local Storage
 
 Es soll eine kleine Bildergalerie implementiert werden, die ihre Bilder mittels JavaScript-DOM austauscht. Eine einfache Local Storage-Implementierung ermöglicht die Speicherung von Notizen.
 
@@ -8,12 +8,8 @@ In Ihrem Repository ist das Grundgerüst der Simple Image Gallery gegeben. Diese
 
 | <img src="stage1.png" alt="Das Template der Image Gallery ist fast vollständig, es fehlt aber die Formatierung des Notizfeldes, da die CSS-Datei noch nicht generiert wurde." width="800"> |
 |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-|                   **Das Template der Image Gallery ist fast vollständig, es fehlt aber die Formatierung des Notizfeldes, da die CSS-Datei noch nicht generiert wurde.**                    |
-
-
-| <img src="stage2.png" alt="" width="800"> |
-|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 |                   ****                    |
+
 
 Nun kann die Entwicklung starten. Vervollständigen Sie nun `_js/gallery.js`, sodass folgende Funktionalitäten für die Galerie gegeben sind:
 

@@ -4,7 +4,7 @@ Es soll eine kleine Bildergalerie implementiert werden, die ihre Bilder mittels 
 
 ## Simple Image Gallery
 
-In Ihrem Repository ist das Grundgerüst der Simple Image Gallery gegeben. Dieses enthält die HTML-Datei `index.html`, die dazugehörige CSS-Datei `css/main.css`, die JavaScript-Datei `_js/gallery.js` sowie sechs Bilder mit dazugehörigen Thumbnails (Vorschaubildern) und einigen weiteren Assets. Beim Klick auf einen der sechs Thumbnails, die als Bootstrap Karten (Cards, eine Kombination aus Bild + Text) realisiert sind, wird das dazugehörige große Bild geöffnet/angezeigt.
+In Ihrem Repository ist das Grundgerüst der Simple Image Gallery gegeben. Dieses enthält die HTML-Datei `index.html`, die dazugehörige CSS-Datei `css/main.css`, die JavaScript-Datei `js/gallery.js` sowie sechs Bilder mit dazugehörigen Thumbnails (Vorschaubildern) und einigen weiteren Assets. Beim Klick auf einen der sechs Thumbnails, die als Bootstrap Karten (Cards, eine Kombination aus Bild + Text) realisiert sind, wird das dazugehörige große Bild geöffnet/angezeigt.
 
 | <img src="stage1.png" alt="Das Template der Image Gallery ist fast vollständig, es fehlt aber die Formatierung des Notizfeldes, da die CSS-Datei noch nicht generiert wurde." width="800"> |
 |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
